@@ -1,14 +1,12 @@
 import React from "react";
+import "./App.css";
 import Names from "./Names";
-import Test from "./Test";
-
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-header">
       <p>Hello world!!</p>
       <Names />
-      <Test />
     </div>
   );
 }
